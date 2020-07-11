@@ -16,7 +16,7 @@
 <body>
     <header>
         <div class="center">
-            <div class="logo left">Logomarca</div>
+            <div class="logo left">Emilly Guedes</div>
             <!--logo-->
             <nav class="desktop right">
                 <ul>
@@ -40,17 +40,18 @@
         <!--center-->
     </header>
     <section class="banner-principal">
+        <div class="overlay"></div>
         <div class="center">
             <form>
                 <h2>Qual o seu melhor e-mail?</h2>
-                <input type="e-mail" name="e-mail" required />
+                <input type="email" name="email" required />
                 <input type="submit" name="acao" value="Cadastrar!">
             </form>
         </div>
         <!--center-->
 
     </section>
-    <!banner-principal-->
+    <!--banner-principal-->
         <section class="descricao-autor">
             <div class="center">
                 <div class="w50 left">
