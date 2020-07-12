@@ -28,6 +28,9 @@
             </nav>
 
             <nav class="mobile right">
+                <div class="botao-menu-mobile">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+                </div>
                 <ul>
                     <li><a href="">Home</a></li>
                     <li><a href="">Sobre</a></li>
@@ -62,7 +65,7 @@
             </div>
             <div class="w50 left">
                 <!--pegar imagem depois-->
-                <img src="img/perfil.jpg" />
+                <img class="right" src="img/perfil.jpg" />
             </div>
             <!--w50-->
             <div class="clear"></div>
