@@ -104,22 +104,22 @@
         <!--especialidades-->
         <section class="extras">
             <div class="center">
-                <div class="w50 left">
-                    <h2 class="title">Depoimentos</h2>
+                <div class="w50 left depoimentos-container">
+                    <h2 class="title">Depoimentos dos nossos clientes</h2>
                     <div class="depoimento-single">
-                        <p class="depoimento-descrição">Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.</p>
+                        <p class="depoimento-descrição">"Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur."</p>
                         <p class="nome-autor">Lorem Ipsum</p>
                     </div>
                     <!--depoimento-single-->
 
                     <div class="depoimento-single">
-                        <p class="depoimento-descrição">Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.</p>
+                        <p class="depoimento-descrição">"Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur."</p>
                         <p class="nome-autor">Lorem Ipsum</p>
                     </div>
                     <!--depoimento-single-->
 
                     <div class="depoimento-single">
-                        <p class="depoimento-descrição">Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.</p>
+                        <p class="depoimento-descrição">"Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur."</p>
                         <p class="nome-autor">Lorem Ipsum</p>
                     </div>
                     <!--depoimento-single-->
@@ -127,7 +127,7 @@
                 <!--w50-->
 
 
-                <div class="w50 left">
+                <div class="w50 left servicos-container">
                     <h2 class="title">Serviços</h2>
                     <div class="servicos">
                         <ul>
