@@ -12,12 +12,14 @@
 
 
 .w33{
-    width: 33.3%
+    width: 33.3%;
+    padding: 0 10px;
 }
 
 img{
 width: 100%;
-max-width: 400px;
+max-width: 250px;
+border-radius: 20px;
 }
 
 .w50{
@@ -145,17 +147,54 @@ section.descricao-autor{
 
 section.descricao-autor h2{
 font-size: 25px;
-font-weight: 400;
+font-weight: 300;
 color:#444;
 }
-
-
 
 section.descricao-autor{
     font-size:16px;
     color:#444;
     margin-top:10px;
 }
+
+
+section.especialidades{
+    padding:40px 0;
+    background: #e2e2e2;
+}
+
+
+section.especialidades h2.title{
+font-size: 30px;
+text-align: center;
+font-weight: 400;
+color: #999;
+}
+
+.box-especialidade{
+    margin: 40px 0;
+    text-align: center;
+    padding: 0 30px;
+}
+
+.box-especialidade h3{
+    text-align: center;
+    color: #404580;
+    font-size: 40px;
+}
+
+.box-especialidade h4{
+    font-weight: 600;
+    font-size: 25px;
+    color:#bababa;
+}
+
+.box-especialidades p{
+    color: #444;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
 
 @media screen and (max-width: 700px){
    nav.desktop{
@@ -200,8 +239,17 @@ section.descricao-autor{
         display:block;
         margin:0 auto;
     }
+
     .w50{
         padding:20px;
         width:100%
+    }
+    .w33{
+        width: 100%;
+        padding: 20px;
+    }
+    .box-especialidade{
+        padding: 20px 20px;
+        margin: 0;
     }
 }

@@ -3,14 +3,14 @@
 
 <head>
     <title>Projeto PHP</title>
-    <link rel="shortcut icon" href="../install/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="palavras-chave,do,meu,site">
     <meta name="description" content="Descrição do meu website">
-    <link rel="stylesheet" href="style/font-awesome.min.css">
+    <link rel="stylesheet" href="estilo/font-awesome.min.css">
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
-    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="estilo/style.css">
 
 </head>
 
@@ -79,25 +79,25 @@
                 <h2 class="title">Especialidades</h2>
                 <div class="w33 left box-especialidade">
                     <h3><i class="fa fa-css3" aria-hidden="true"></i></h3>
-                    <h3>CSS3</h3>
+                    <h4>CSS3</h4>
                     <p> Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. </p>
                 </div>
                 <!box-especialidade-->
 
                     <div class="w33 left box-especialidade">
                         <h3><i class="fa fa-html5" aria-hidden="true"></i></h3>
-                        <h3>HTML5</h3>
+                        <h4>HTML5</h4>
                         <p> Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. </p>
                     </div>
                     <!box-especialidade-->
 
                         <div class="w33 left box-especialidade">
                             <h3><i class="fa fa-gg-circle" aria-hidden="true"></i></h3>
-                            <h3>JavaScript</h3>
+                            <h4>JavaScript</h4>
                             <p> Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. </p>
                         </div>
                         <!box-especialidade-->
-
+                    <div class="clear"></div>
             </div>
             <!--center-->
         </section>
