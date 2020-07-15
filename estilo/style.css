@@ -306,8 +306,9 @@ footer p{
         font-size: 17px;
         padding: 8px 0;
     }
-    nav.mobile li a{
-        color:white;
+    nav.mobile a{
+        display: block;
+        color: #444;
         text-decoration: none;
     }
  }
