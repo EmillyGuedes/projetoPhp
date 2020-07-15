@@ -1,314 +1,297 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Open Sans";
-}
-.center{
+  }
+  img {
+    width: 100%;
+    max-width: 250px;
+    border-radius: 20px;
+  }
+  
+  .center {
     max-width: 1280px;
-    padding:0 2%;
-    margin:0 auto;
-}
-
-
-.w33{
+    padding: 0 2%;
+    margin: 0 auto;
+  }
+  
+  .w33 {
     width: 33.3%;
     padding: 0 10px;
-}
-
-img{
-width: 100%;
-max-width: 250px;
-border-radius: 20px;
-}
-
-.w50{
-    padding:0 10px;
+  }
+  
+  .w50 {
+    padding: 0 10px;
     width: 50%;
-}
-
-.left{
+  }
+  
+  .left {
     float: left;
-}
-
-
-.right{
+  }
+  
+  .right {
     float: right;
-}
-
-.clear{
-    clear:both;
-}
-
-/*Estilização do Site */
-header{
+  }
+  
+  .clear {
+    clear: both;
+  }
+  
+  /*Estilização do Site */
+  header {
     padding: 20px 0;
-    background: #3D437A;
-}
-
-
-header .logo{
-    font-size:23px;
+    background: #3d437a;
+  }
+  
+  header .logo {
+    font-size: 23px;
     font-weight: 300;
-    text-transform: uppercase;
     color: white;
-}
-
-.mobile{
-    display:none;
-}
-
-nav.desktop ul{
+  }
+  
+  .mobile {
+    display: none;
+  }
+  
+  nav.desktop ul {
     position: relative;
-    top:6px;
+    top: 6px;
     list-style-type: none;
-}
-
-nav.desktop li{
+  }
+  
+  nav.desktop li {
     font-weight: 300;
     font-size: 15px;
     padding: 0 30px;
     text-transform: uppercase;
     display: inline-block;
-}
-
-
-nav.desktop a{
+  }
+  
+  nav.desktop a {
     color: white;
     text-decoration: none;
-}
-
-section.banner-principal{
+  }
+  
+  section.banner-principal {
     width: 100%;
     height: 600px;
-    background-image: url('../img/bg-form.jpg');
-    background-size: cover;
+    background-image: url("../img/banner.jpg");
     position: relative;
-}
-
-
-.overlay{
+    background-size: cover;
+  }
+  
+  .overlay {
     position: absolute;
     left: 0;
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(51,51,51,0.8);
-}
-
-
-section.banner-principal form{
+    background-color: rgba(39, 39, 39, 0.8);
+  }
+  
+  section.banner-principal form {
     width: 93%;
     max-width: 600px;
     z-index: 2;
     position: absolute;
     left: 50%;
     top: 50%;
-    transform:translate(-50%,-50%);
-    -ms-transform:translate(-50%,-50%);
-}
-
-section.banner-principal form h2{
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+  
+  section.banner-principal form h2 {
     color: white;
     font-weight: 300;
     font-size: 30px;
     text-align: center;
-}
-
-
-section.banner-principal form input[type=email]{
+  }
+  
+  section.banner-principal form input[type="email"] {
     width: 100%;
-    height: 66px;
+    height: 65px;
     margin-top: 10px;
     background: white;
     color: #333;
-    font-size: 22px;
+    font-size: 25px;
     padding-left: 10px;
-
-}
-
-section.banner-principal form input[type=submit]{
+  }
+  
+  section.banner-principal form input[type="submit"] {
     width: 100%;
     height: 66px;
     margin-top: 10px;
     background: #00c59e;
     color: white;
-    font-size: 22px;
+    font-size: 25px;
     cursor: pointer;
     border: 0;
-}
-
-
-section.descricao-autor{
-    padding: 30px 0;
-}
-
-
-
-section.descricao-autor h2{
-font-size: 25px;
-font-weight: 300;
-color:#444;
-}
-
-section.descricao-autor{
-    font-size:16px;
-    color:#444;
-    margin-top:10px;
-}
-
-
-section.especialidades{
-    padding:40px 0;
+  }
+  
+  section.descricao-autor {
+    padding: 40px;
+  }
+  
+  section.descricao-autor h2 {
+    font-size: 30px;
+    font-weight: 300;
+    color: #444;
+  }
+  
+  section.descricao-autor p {
+    font-size: 16px;
+    color: #444;
+    margin-top: 20px;
+  }
+  
+  section.especialidades {
+    padding: 40px 0;
     background: #e2e2e2;
-}
-
-
-section.especialidades h2.title{
-font-size: 30px;
-text-align: center;
-font-weight: 400;
-color: #999;
-}
-
-.box-especialidade{
+  }
+  
+  section.especialidades .title {
+    font-size: 30px;
+    font-weight: 400;
+    color: #999;
+    text-align: center;
+  }
+  
+  .box-especialidade {
     margin: 40px 0;
-    text-align: center;
     padding: 0 30px;
-}
-
-.box-especialidade h3{
     text-align: center;
+  }
+  
+  .box-especialidade h3 {
     color: #404580;
-    font-size: 40px;
-}
-
-.box-especialidade h4{
-    font-weight: 600;
+    font-size: 100px;
+  }
+  
+  .box-especialidade h4 {
+    color: #bababa;
+    font-weight: 400;
     font-size: 25px;
-    color:#bababa;
-}
-
-.box-especialidades p{
+  }
+  
+  .box-especialidade p {
     color: #444;
     font-size: 15px;
     margin-top: 10px;
-}
-
-section.extras{
+  }
+  
+  section.extras {
     padding: 30px 0;
     background: #404580;
-}
-
-.depoimentos-container,.servicos-container{
-    padding: 0 30px;
-}
-
-section.extras .title{
+  }
+  
+  .servicos-container,
+  .depoimentos-container {
+    padding: 0 50px;
+  }
+  
+  section.extras .title {
     color: white;
     font-weight: 300;
     font-size: 25px;
-    margin-bottom:15px;
-}
-
-.depoimento-single{
+    margin-bottom: 15px;
+  }
+  
+  .depoimento-single {
     padding: 15px 0;
     border-bottom: 1px solid #5056a0;
-}
-
-p.depoimento-descricao{
+  }
+  
+  p.depoimento-descricao {
     font-size: 15px;
     color: white;
     font-weight: 300;
-}
-
-p.nome-autor{
-    font-size:15px;
+  }
+  
+  p.nome-autor {
+    font-size: 20px;
     color: white;
-    margin-top:5px;
     font-weight: bold;
-}
-
-.servicos ul{
-    margin:20px 0;
-}
-
-.servicos li{
-    margin-bottom: 15px;
+    margin-top: 5px;
+  }
+  
+  .servicos ul {
+    margin: 20px 0;
+  }
+  
+  .servicos li {
+    list-style: circle;
     font-size: 15px;
-    color:white;
+    color: white;
     font-weight: 300;
-}
-
-footer{
+    margin-bottom: 20px;
+  }
+  
+  footer {
     background: #313462;
-    padding:30px 0;
-}
-
-footer p{
-    color:white;
+    padding: 30px 0;
+  }
+  
+  footer p {
+    color: white;
     text-align: center;
     font-weight: 400;
     font-size: 16px;
-}
-
-
-@media screen and (max-width:768px){
-    img{
-        float: none !important;
-        display:block;
-        margin:0 auto;
+  }
+  
+  @media screen and (max-width: 768px) {
+    img {
+      float: none !important;
+      display: block;
+      margin: 0 auto;
     }
-
-    .w50{
-        padding:20px;
-        width:100%
+    .w50 {
+      width: 100%;
+      padding: 20px;
     }
-    .w33{
-        width: 100%;
-        padding: 20px;
+    .w33 {
+      width: 100%;
+      padding: 20px;
     }
-    .box-especialidade{
-        padding: 20px 20px;
-        margin: 0;
+    .box-especialidade {
+      padding: 20px 20px;
+      margin: 0;
     }
-}
-
-
-@media screen and (max-width: 700px){
-    nav.desktop{
-        display: block;
+  }
+  
+  @media screen and (max-width: 700px) {
+    nav.desktop {
+      display: none;
     }
-    nav.mobile{
-        display:block;
+    nav.mobile {
+      display: block;
     }
- 
-    .botao-menu-mobile{
-        font-size: 24px;
-        cursor: pointer;
-        color: white;
+    .botao-menu-mobile {
+      font-size: 24px;
+      cursor: pointer;
+      color: white;
     }
-    nav.mobile ul{
-        top: 55px;
-        z-index: 3;
-        position: absolute;
-        left:0;
-        width: 100%;
-        display: none;
-        text-align: center;
+    nav.mobile ul {
+      display: none;
+      left: 0;
+      top: 55px;
+      position: absolute;
+      z-index: 3;
+      text-align: center;
+      width: 100%;
     }
-    nav.mobile li{
-        font-weight:300;
-        width:100%;
-        display: block;
-        background: white;
-        border-bottom:1px solid#ccc;
-        font-size: 17px;
-        padding: 8px 0;
+    nav.mobile li {
+      width: 100%;
+      font-size: 17px;
+      display: block;
+      background: white;
+      border-bottom: 1px solid #ccc;
+      padding: 8px 0;
+      font-weight: 300;
     }
-    nav.mobile a{
-        display: block;
-        color: #444;
-        text-decoration: none;
+    nav.mobile a {
+      display: block;
+      color: #444;
+      text-decoration: none;
     }
- }
+  }
