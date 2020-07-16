@@ -10,8 +10,11 @@ $(function () {
         listaMenu.slideToggle();
          } 
          else{
+         var icone = $('.botao-menu-mobile').find('i');
+         icone.removeClass('fa-times');
+         icone.addClass('fa-bars');
          listaMenu.slideToggle();
-
+         
          }
     })
 })
