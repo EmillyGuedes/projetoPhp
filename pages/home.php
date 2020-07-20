@@ -16,7 +16,7 @@
             </div>
         </div>
         <div class="w50 left">
-            <img class="right" src="img/perfil.jpg" alt="André Luiz">
+            <img class="right" src="<?php echo INCLUDE_PATH;   ?>img/perfil.jpg" alt="André Luiz">
         </div>
         <div class="clear"></div>
     </section>
