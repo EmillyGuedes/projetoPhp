@@ -1,7 +1,7 @@
 <section class="banner-container">
-<div class="banner-single" style="background-image: url('img/banner');"></div>
-<div class="banner-single" style="background-image: url('img/banner2');"></div>
-<div class="banner-single" style="background-image: url('img/banner3');"></div>
+<div class="banner-single" style="background-image: url('img/banner.jpg');"></div>
+<div class="banner-single" style="background-image: url('img/banner2.jpg');"></div>
+<div class="banner-single" style="background-image: url('img/banner3.jpg');"></div>
         <div class="overlay"></div>
         <div class="center">
             <form>
@@ -19,7 +19,7 @@
             </div>
         </div>
         <div class="w50 left">
-            <img class="right" src="<?php echo INCLUDE_PATH;   ?>img/perfil.jpg" alt="André Luiz">
+            <img class="right" src="<?php echo INCLUDE_PATH;   ?>img/perfil.jpg" alt="Emilly Guedes">
         </div>
         <div class="clear"></div>
     </section>
