@@ -1,4 +1,7 @@
-<section class="banner-principal">
+<section class="banner-container">
+<div class="banner-single" style="background-image: url('img/banner');"></div>
+<div class="banner-single" style="background-image: url('img/banner2');"></div>
+<div class="banner-single" style="background-image: url('img/banner3');"></div>
         <div class="overlay"></div>
         <div class="center">
             <form>
